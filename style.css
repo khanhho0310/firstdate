@@ -1,0 +1,460 @@
+/* CSS RESET */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea {
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.conten {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 4vw;
+    margin-top: -30vw;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    height: 36vw;
+    background-image: url(https://anscommerce.s3.ap-south-1.amazonaws.com/live/image/catalog/brandstore/johnson/Information/service-center-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(247, 247, 247);
+    width: 100%;
+}
+.title {
+    margin-right: 4vw;
+    font-size: 6vw;
+    margin-top: -10vw;
+    text-shadow: #f0e4e4 20;
+    color: #fae933;
+}
+.img {
+    margin-top: 10vw;
+}
+.spnb {
+    display: flex;
+    justify-content: left;
+    padding: 2vw;
+    font-size: large;
+    font-weight: bold;
+    font-size: 2vw;
+}
+.dhnn {
+    font-size: 2.2vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+    background: #f0e4e4;
+}
+.sanpham {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #5644;
+    flex-wrap: wrap;
+}
+.imge {
+    height: 20vw;
+    width: 20vw;
+}
+.osp {
+    margin: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.osp:hover {
+    border: 1px solid #43412d;
+}
+.nutmua {
+    cursor: pointer;
+    margin: 1vw;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    padding: 0.4vw 1.5vw;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(233, 242, 159);
+}
+.nutmua:hover {
+    color: rgb(162, 14, 26);
+}
+.thuonghieu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+    margin: 2vw;
+    max-width: 100vw;
+}
+
+.tensp {
+    font-size: 1.3vw;
+    text-align: center;
+    margin: 0.5vw;
+}
+.dhnam {
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 2vw;
+}
+.dhnu {
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 2vw;
+}
+.dmsp {
+    font-size: 1.7vw;
+    font-weight: bold;
+    padding: 2vw;
+}
+.gia {
+    font-size: 1.2vw;
+}
+.xemthem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.3vw 4vw;
+    margin-bottom: 1vw;
+    border: 1px solid #245;
+    margin: 1vw 36vw;
+    cursor: pointer;
+}
+.xemthem:hover {
+    color: rgb(14, 52, 244);
+}
+.dmut {
+    font-size: 1.7vw;
+    font-weight: bold;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    background-color: hwb(60 83% 9%);
+    margin: 0vw 16vw;
+    margin-top: 2vw;
+}
+.dieukhoan {
+    margin: 4vw 0vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    background-color: #ede47e;
+}
+.icon {
+    height: 4vw;
+    cursor: pointer;
+}
+.odk {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: 1vw 4vw;
+    font-weight: bold;
+    padding: 1vw;
+}
+.lienhe {
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.dclh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.anhlh {
+    height: 2.5vw;
+    cursor: pointer;
+}
+.diachi {
+    margin: 2vw;
+    font-size: 1.3vw;
+    border: 1px solid #5468;
+    padding: 2vw;
+}
+.tc:hover {
+    color: #ede47e;
+}
+.subnav {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 2vw;
+    float: right;
+    background-color: white;
+    padding-left: 1vw;
+    margin-top: 1vw;
+    height: 2vw;
+    width: 26vw;
+    border: 0.5px solid #ced2dd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hoten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ngaythangnamsinh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.ngsinh {
+    display: flex;
+    gap: 5px;
+}
+
+.thsinh {
+    display: flex;
+    gap: 5px;
+}
+
+.namsinh {
+    display: flex;
+    gap: 5px;
+}
+
+.form-input {
+    padding: 6px 16px;
+}
+
+.gtinh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.namnu {
+    display: flex;
+    gap: 15px;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ttdn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.tdn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nlpass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ttcnhan-wp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin: 5vw 15vw;
+    border: 1px solid #000;
+    font-size: 1.5vw;
+    padding: 2vw;
+    background-color: #f0e4e4;
+    font-weight: bold;
+}
+
+.ttcnhan {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.8vw;
+    color: #000;
+}
+
+.tdn-wp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    padding-bottom: 10px;
+    margin: 5vw 15vw;
+    border: 1px solid #000;
+    padding: 2vw;
+    background-color: #f0e4e4;
+    font-weight: bold;
+    padding-right: 0.15vw;
+}
+.tdnhap {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.8vw;
+    font-size: 1.5vw;
+}
+
+.ttincn {
+    list-style: none;
+}
+.dn {
+    border: 2px solid #000;
+    padding: 0.3vw 3vw;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.cn {
+    border: 2px solid #000;
+    margin-top: 5px;
+    padding: 0.3vw 3vw;
+    cursor: pointer;
+}
+.tdht {
+    font: bold;
+    font-size: 2vw;
+    font-weight: bold;
+}
+.tongdai {
+    margin: 3vw;
+    border: 1px solid #000;
+    padding: 2vw 5vw;
+    border-radius: 16px;
+    line-height: 3.5vw;
+}
+.sotd {
+    font-size: 1.4vw;
+}
+.dkn {
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin: 2vw 20vw;
+    list-style: none;
+    padding: 2vw 4vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0e4e4;
+    gap: 20px;
+}
+.kn {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.3vw;
+    gap: 8vw;
+    font-weight: bold;
+    line-height: 2.5vw;
+    width: 100%;
+}
+
+.kn > p {
+    min-width: 100px;
+}
+
+.kn > input {
+    width: 100%;
+    flex: 1;
+}
+
+.nutgoi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    font-size: 1vw;
+    font-weight: bold;
+    border: 1px solid #000;
+    border-radius: 17px;
+    margin-top: 1vw;
+}
